@@ -10,11 +10,11 @@ rockmtn. Full source will be available soon.(tm)
 The closed-source version is available for download from the official zkBits
 website.
 
-Note: Pixelhasher must be connected to the solo mining adapter or to the mining
-pool.
+Note: Pixelhasher must be connected to the [solo mining helper](https://github.com/zkbits/pixelhasher-solo-helper), or to the mining
+pool (coming soon).
 
 - Latest release: Pixelhasher v0.1.0 (`pixelhasher_v0.1.0.zip`)
-- Solo mining adapter: (link coming soon)
+- Solo mining adapter: [zkbits/pixelhasher-solo-helper](https://github.com/zkbits/pixelhasher-solo-helper) by 0xBrian
 
 Linux install instructions:
 
