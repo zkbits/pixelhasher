@@ -25,6 +25,20 @@ cd pixelhasher_v0.1.0/
 ./pixelhasher
 ```
 
+# How do I mine in the official zkBits mining pool?
+
+**BETA NOTE as of 9 July 2024: We are not doing proportional payouts yet!** For now, we will manually transfer zkBitcoin to the solver of each block. The zkBits will also be given out this way, after the contracts are ready, based on past mining history in the pool.
+
+Make your `config.json` look like this, but change `0xfaf20...` to your real payout address:
+
+```
+{
+  "payout_address": "0xfaf20e5ca7e39d43a3aabc450602b4147c3aa62e",
+  "server_name": "zkbits.letz.dev",
+  "server_port": 17890
+}
+```
+
 # How fast will my card mine?
 
 | pixelhasher version | tester | card | hashrate gh/s | relmax |
