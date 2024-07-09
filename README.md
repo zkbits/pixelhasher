@@ -1,5 +1,9 @@
 # pixelhasher: GPU miner for zkBits
 
+## [zkBits Discord 👾](https://discord.gg/T9kUShU4K3)
+
+# Description
+
 First open-source release of pixelhasher for Linux/Windows.
 
 Source is being ported over from closed-source version of pixelhasher by
