@@ -6,18 +6,16 @@
 
 First open-source release of pixelhasher for Linux/Windows.
 
-Source is being ported over from closed-source version of pixelhasher by
-rockmtn. Full source will be available soon.(tm)
+Source was ported over from closed-source version of pixelhasher by [rockmtn](https://github.com/rockmtn).
 
-## Closed-source beta
+## Binaries
 
-The closed-source version is available for download from the official zkBits
-website.
+Pre-compiled binaries are available for download from the [official zkBits website](https://zkbits.letz.dev/).
 
 Note: Pixelhasher must be connected to the [solo mining helper](https://github.com/zkbits/pixelhasher-solo-helper), or to the mining
 pool (coming soon).
 
-- Latest release: Pixelhasher v0.1.0 (`pixelhasher_v0.1.0.zip`)
+- Latest release: [Pixelhasher v0.1.0](https://zkbits.letz.dev/release/pixelhasher_v0.1.0.zip) (`pixelhasher_v0.1.0.zip`)
 - Solo mining adapter: [zkbits/pixelhasher-solo-helper](https://github.com/zkbits/pixelhasher-solo-helper) by 0xBrian
 
 Linux install instructions:
@@ -31,7 +29,7 @@ cd pixelhasher_v0.1.0/
 
 # How do I mine in the official zkBits mining pool?
 
-**BETA NOTE as of 9 July 2024: We are not doing proportional payouts yet!** For now, we will manually transfer zkBitcoin to the solver of each block. The zkBits will also be given out this way, after the contracts are ready, based on past mining history in the pool.
+**BETA NOTE as of 16 July 2024: We are not doing proportional payouts yet!** For now, we will manually transfer zkBitcoin to the solver of each block. The zkBits will also be given out this way, after the contracts are ready, based on past mining history in the pool.
 
 Make your `config.json` look like this, but change `0xfaf20...` to your real payout address:
 
