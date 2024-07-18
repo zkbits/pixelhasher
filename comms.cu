@@ -8,6 +8,7 @@
 #include <sys/time.h>
 #include <linux/tcp.h>
 #include <pthread.h>
+#include <unistd.h>
 #include "config.h"
 #include "comms.h"
 #include "json.h"
@@ -156,8 +157,8 @@ void *do_comms(void *ptr) {
     int n = 0;
     char buffer[BIGBUF];
     char *writepos = buffer;
-    struct timeval timeout = { 0, 10000 };
     while(true) {
+      struct timeval timeout = { 0, 10000 };
       fd_set readfds, writefds;
       FD_ZERO(&readfds);
       FD_ZERO(&writefds);
