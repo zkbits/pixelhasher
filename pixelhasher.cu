@@ -409,7 +409,8 @@ int main(int argc, char **argv)
     else {
       fflush(stdout);
       sleep(1);
-      printf("Hmm, ret was %d (ignore)\n", ret);
+      printf("Hmm, ret was %d, stopping\n", ret);
+      break;
     }
     fflush(stdout);
     wait_count = 0;
