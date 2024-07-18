@@ -249,6 +249,7 @@ int solve_work(uint8_t *full_solution) {
     runtime = now();
     launch<<<NUMBER_BLOCKS, NUMBER_THREADS>>>(d_mining_target, d_initial_hash_input, d_winning_hash_input, d_done);
     starting_tid += NUMBER_BLOCKS * NUMBER_THREADS;
+    // TODO: fix cpu 100% bug like this: https://forums.developer.nvidia.com/t/100-cpu-usage-when-running-cuda-code/35920/6
     cudaerr  = cudaDeviceSynchronize();
     runtime = now() - runtime;
     cudaMemcpy(h_done, d_done, sizeof(int), cudaMemcpyDeviceToHost);
