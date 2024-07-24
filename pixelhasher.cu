@@ -335,8 +335,7 @@ void get_work() {
   comms_copy_current_work(&current_work);
 }
 
-int main(int argc, char **argv)
-{
+int main(int argc, char **argv) {
   config_t config;
   config = load_config();
 
