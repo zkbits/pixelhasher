@@ -337,7 +337,7 @@ void get_work() {
 }
 
 int main(int argc, char **argv) {
-  printf("pixelhasher version " VERSION " (pixelhasher v" VERSION ")\n");
+  printf("pixelhasher version " VERSION " (pixelhasher-v" VERSION ")\n");
   if (argc == 2 && strncmp(argv[1], "-v", 2) == 0) { return 0; }
   config_t config;
   config = load_config();
