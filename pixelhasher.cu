@@ -12,6 +12,7 @@
 
 void gpu_init();
 
+#define VERSION "0.1.1"
 #define NUMBER_BLOCKS 256
 #define NUMBER_THREADS 256
 #define GPU_OUTER_LOOP_COUNT 256 // GOLC entropy is log2(GOLC), need 8 bits!
@@ -336,6 +337,8 @@ void get_work() {
 }
 
 int main(int argc, char **argv) {
+  printf("pixelhasher version " VERSION " (pixelhasher v" VERSION ")\n");
+  if (argc == 2 && strncmp(argv[1], "-v", 2) == 0) { return 0; }
   config_t config;
   config = load_config();
 
