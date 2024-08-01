@@ -10,18 +10,18 @@ Source was ported over from closed-source version of pixelhasher by [rockmtn](ht
 
 ## Binaries
 
-Pre-compiled binaries are available for download from the [official zkBits website](https://zkbits.letz.dev/).
+Pre-compiled binaries are available for download from the [official zkBits website](https://zkbits.com/).
 
 Note: Pixelhasher must be connected to the [solo mining helper](https://github.com/zkbits/pixelhasher-solo-helper), or to the mining
 pool (coming soon).
 
-- Latest release: [Pixelhasher v0.1.0](https://zkbits.letz.dev/release/pixelhasher_v0.1.0.zip) (`pixelhasher_v0.1.0.zip`)
+- Latest release: [Pixelhasher v0.1.0](https://zkbits.com/release/pixelhasher_v0.1.0.zip) (`pixelhasher_v0.1.0.zip`)
 - Solo mining adapter: [zkbits/pixelhasher-solo-helper](https://github.com/zkbits/pixelhasher-solo-helper) by 0xBrian
 
 Linux install instructions:
 
 ```
-wget https://zkbits.letz.dev/release/pixelhasher_v0.1.0.zip
+wget https://zkbits.com/release/pixelhasher_v0.1.0.zip
 unzip pixelhasher_v0.1.0.zip
 cd pixelhasher_v0.1.0/
 ./pixelhasher
@@ -36,7 +36,7 @@ Make your `config.json` look like this, but change `0xfaf20...` to your real pay
 ```
 {
   "payout_address": "0xfaf20e5ca7e39d43a3aabc450602b4147c3aa62e",
-  "server_name": "zkbits.letz.dev",
+  "server_name": "zkbits.com",
   "server_port": 17890
 }
 ```
